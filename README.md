@@ -16,4 +16,27 @@
 
 - `git submodule`
 
+## 更新子模块
+
+- 更新项目内子模块到最新版本: `git submodule update`
+- 更新子模块为远程项目的最新版本: `git submodule update --remote`
+
+## 克隆包含子模块的项目
+
+1. 递归克隆整个项目
+   ```git
+   git clone git@github.com:sadicLiu/public-module.git public --recursive
+   ```
+2. 先克隆父项目, 再克隆子项目
+   - 克隆父项目
+   - 查看子模块: `git submodule`
+   - 初始化子模块: `git submodule init`
+   - 更新子模块: `git submodule update`
+   
+   
+   
+   
+   
+
+
 
