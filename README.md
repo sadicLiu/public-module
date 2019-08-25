@@ -33,6 +33,25 @@
    - 初始化子模块: `git submodule init`
    - 更新子模块: `git submodule update`
    
+## 修改子模块
+
+- 对子模块修改后, 在子模块所在文件夹进行正常add, commit, push操作即可
+
+## 删除子模块
+
+1. 删除子模块文件夹
+   ```git
+   git rm --cached public
+   rm -rf public
+   ```
+2. 删除 `.gitmodules` 相关联的子模块信息
+3. 删除 `.git/config` 中相关的子模块信息
+4. 删除 `.git/modules/public`
+
+
+
+   
+   
    
    
    
