@@ -17,4 +17,3 @@
 - `git submodule`
 
 
-test
